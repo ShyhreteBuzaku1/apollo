@@ -22,8 +22,8 @@
 body {
   font-family: 'Lato', sans-serif;
   color: var(--mainBlack);
-  /* background: var(--mainWhite); */
-  background: red;
+  background: var(--mainWhite);
+  /* background: red; */
   line-height: 1.4;
   font-size: 1rem;
 }
