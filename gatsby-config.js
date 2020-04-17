@@ -10,8 +10,24 @@ module.exports = {
     title: 'Apollo',
     description: 'Explore Moon, Forget your daily routine.',
     author: '@Leta',
-    data: ['item1', 'item2'],
+    data: {
+      name: 'Leta',
+      age: 23,
+    },
   },
 
-  plugins: ['gatsby-plugin-typescript', 'gatsby-plugin-sass', `gatsby-plugin-styled-components`],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-sass',
+    `gatsby-plugin-styled-components`,
+  ],
 };
