@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../Title';
 import styles from '../../css/about.module.css';
-import img from '../../images/apollo.jpg';
+import img from '../../images/our-team.jpg';
 const About = () => {
   return (
     <div>
@@ -13,8 +13,12 @@ const About = () => {
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4> Explore the difference</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum.</p>
+          <h4> Background of our company</h4>
+          <p>
+            Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare,
+            suscipit lobortis augue volutpat. Sed ligula arcu, interdum eu magna eget, tristique
+            aliquet nibh.
+          </p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum.</p>
           <button type="button" className="btn-primary">
             Read More

@@ -40,9 +40,9 @@ h6 {
 p {
   margin-bottom: 1.25rem;
 }
-.defaultHero {
-  min-height: calc(100vh - 62px);
-  background: url('../images/banner-bg.jpg') center/cover no-repeat !important;
+.defaultHero2 {
+  min-height: calc(100vh - 300px);
+  background: url('../images/heading-bg.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;

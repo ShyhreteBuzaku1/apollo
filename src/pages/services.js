@@ -3,17 +3,21 @@ import Layout2 from '../components/Layout2';
 import SimpleHero2 from '../components/SimpleHero2';
 import { Link } from 'gatsby';
 import Banner from '../components/Banner';
-const contact = () => {
+import Images from '../examples/Images';
+
+const services = () => {
   return (
     <Layout2>
       <SimpleHero2>
-        <Banner title="Contact us" info="lorem ipsum">
-          <Link to="/about" className="btn-white">
-            Explore About
+        <Banner title="Our Services" info="lorem ipsum">
+          <Link to="/" className="btn-white">
+            Explore home
           </Link>
         </Banner>
       </SimpleHero2>
+      <Images />
     </Layout2>
   );
 };
-export default contact;
+
+export default services;

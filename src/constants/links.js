@@ -4,15 +4,15 @@ export default [
     text: 'home',
   },
   {
-    path: '/tours',
-    text: 'tours',
+    path: '/about',
+    text: 'about us',
   },
   {
-    path: '/blog',
-    text: 'blog',
+    path: '/services',
+    text: 'our services',
   },
   {
     path: '/contact',
-    text: 'contact',
+    text: 'contact us',
   },
 ];
