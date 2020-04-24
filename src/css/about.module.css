@@ -52,7 +52,7 @@
   }
 }
 @media screen and (min-width: 992px) {
-  /* .img-container::before {
+  .img-container::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -62,7 +62,7 @@
     top: -16px;
     left: -16px;
     z-index: -1;
-  } */
+  }
 }
 
 @media screen and (min-width: 1200px) {

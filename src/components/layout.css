@@ -42,7 +42,8 @@ p {
 }
 .defaultHero {
   min-height: calc(100vh - 62px);
-  background: url('../images/banner-bg.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/apollo.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +55,7 @@ p {
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
   border: 2px solid var(--mainWhite);
-  padding: 0.5rem 1.2rem;
+  padding: 0.9rem 1.6rem;
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;

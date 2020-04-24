@@ -12,6 +12,6 @@ export default [
   },
   {
     icon: <FaSquarespace />,
-    url: 'https://squarespace.com',
+    url: 'https://twitch.com',
   },
 ];

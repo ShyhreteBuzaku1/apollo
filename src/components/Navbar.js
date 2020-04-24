@@ -4,7 +4,7 @@ import styles from '../css/navbar.module.css';
 import { FaAlignRight } from 'react-icons/fa';
 import links from '../constants/links';
 import socialIcons from '../constants/social-icons';
-import logo from '../images/host.jpg';
+import logo from '../images/apollo-icon.svg';
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false);
@@ -12,7 +12,6 @@ const Navbar = () => {
     setNav((isOpen) => !isOpen);
   };
   console.log(isOpen);
-
   return (
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
@@ -31,10 +30,7 @@ const Navbar = () => {
             );
           })}
         </ul>
-        <Link to="/about" className="btn-white">
-          Login
-        </Link>
-        {/* <div className={styles.navSocialLinks}>
+        <div className={styles.navSocialLinks}>
           {socialIcons.map((item, index) => {
             return (
               <a key={index} href={item.url} target="_blank">
@@ -42,7 +38,7 @@ const Navbar = () => {
               </a>
             );
           })}
-        </div> */}
+        </div>
       </div>
     </nav>
   );
